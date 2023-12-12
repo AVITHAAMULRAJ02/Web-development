@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Time Table</title>
+	<style>
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+			padding: 10px;
+			text-align: center;
+		}
+
+		
+        h1 {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: #000000;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        th {
+            background-color: #a2d6f8;
+        }
+
+        td {
+            font-family: Arial, sans-serif;
+        }
+
+        #border1 th {
+            background-color: #bb52f4;
+        }
+
+        
+        tr:nth-child(even) {
+            background-color: #d3a4ed;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #a203eb;
+        }
+    </style>
+
+		
+	</style>
+</head>
+<body>
+	<h1>Time Table</h1>
+	<table>
+		<tr id="border1">
+			<th>Day/Period</th>
+			<th>I<br>9:00-9:50</th>
+			<th>II<br>9:50-10:00</th>
+			<th>10:50-11:15</th>
+			<th>III<br>11:15-12:00</th>
+			<th>IV<br>12:00-1:00</th>
+			<th>1:00-1:50<br></th>
+			<th>V<br>1:50-2:40</th>
+			<th>VI<br>2:40-3:30</th>
+			
+		</tr>
+		<tr>
+			<td>Monday</td>
+			<td>CBOT</td>
+			<td>WEB</td>
+			<td rowspan="6"><h2>B<BR>R<BR>E<BR>A<BR>K</h2></td>
+			<td>JAVA</td>
+			<td>DS</td>
+			<td rowspan="6"><h2>L<BR>U<BR>N<BR>C<BR>H</h2></td>
+			<td>FC</td>
+			<td>TAM</td>
+		</tr>
+		<tr>
+			<td>Tuesday</td>
+			<td>TAM</td>
+			<td>Eng</td>
+			<td>DS</td>
+			<td>Mat</td>
+			<td>WEB</td>
+			<TD>DS</TD>
+		</tr>
+		<tr>
+			<td>Wednesday</td>
+			<td colspan="2">LAB</td>
+			<td>LAB</td>
+			<td>ENG</td>
+			<td>JAVA</td>
+			<td>CBOT</td>
+			
+		</tr>
+		<tr>
+			<td>Thursday</td>
+			<td>JAVA</td>
+			<td>DS</td>
+			<td>CBOT</td>
+			<td>ENG</td>
+			<td>TAM</td>
+			<td>WEB</td>
+		</tr>
+		<tr>
+			<td>Friday</td>
+			<td>CBOT</td>
+			<td>TAM</td>
+			<td>DS</td>
+			<td>JAVA</td>
+			<td>DS</td>
+			<td>ENG</td>
+		</tr>
+		
+		
+	</table>
+</body>
+</html>
